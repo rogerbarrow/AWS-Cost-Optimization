@@ -165,3 +165,5 @@ Delete snapshot
 
 ![image](https://github.com/user-attachments/assets/5ee93d59-a29b-42b6-8405-b4a67546f44a)
 
+the script was able to run but the snapshot is still avaibable 
+![image](https://github.com/user-attachments/assets/001fe0d0-92bb-497f-aa91-592b26309eb7)
