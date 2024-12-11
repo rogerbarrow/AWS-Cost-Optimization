@@ -173,3 +173,6 @@ the script was able to run but the snapshot is still avaibable
 
 Next we will Delete the EC2 and EBS volume
 ![image](https://github.com/user-attachments/assets/c40e7933-59a8-401b-b3ce-72d5a99a825c)
+
+the EC2 is now termiated
+![image](https://github.com/user-attachments/assets/6a0a1e3b-d933-4ec2-8878-f1e2bd291bcf)
