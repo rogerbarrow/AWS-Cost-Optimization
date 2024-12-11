@@ -100,6 +100,50 @@ For each snapshot, the function determines whether the associated volume is link
 
 If the snapshot is no longer in use (stale), the function deletes it, ensuring efficient storage usage.
 
+![image](https://github.com/user-attachments/assets/faa1ed5e-72ed-4290-a73c-6603b74cce38)
+
+The Cost of Forgotten Snapshots: A Real-World Example
+Imagine this: a developer takes a daily snapshot of an Amazon Elastic Block Store (EBS) volume to back up their work. This practice continues over a year, resulting in a growing collection of snapshots. Each snapshot incurs storage costs, but it's a small price to pay for the assurance of having backups.
+
+What Went Wrong?
+Over time, the developer decides the EC2 instance and its volume are no longer needed and deletes them. However, they overlook one critical detail: snapshots aren’t automatically deleted when the instance or volume is removed. The snapshots continue to sit in storage, silently racking up costs.
+
+Here’s a breakdown of the situation:
+
+Daily snapshots: 1 snapshot/day
+
+Total snapshots in a year: 365 snapshots
+
+Snapshot size: ~50 GB each
+
+Storage cost per GB (standard EBS pricing): $0.05/GB/month
+
+Monthly cost of snapshots:
+
+365×50
+ GB
+×
+0.05
+ USD/GB
+=
+
+912.50
+ 
+USD
+365×50GB×0.05USD/GB=912.50USD
+Annual cost of forgotten snapshots:
+912.50
+×
+12
+=
+10
+,
+950
+ 
+USD
+912.50×12=10,950USD
+That’s $10,950 annually for unused snapshots—a significant expense caused by a small oversight.
+
 Example
 1. Create and EC2 Instance
    ![image](https://github.com/user-attachments/assets/133c0f39-70a3-4114-886c-20c2bcffe7f7)
