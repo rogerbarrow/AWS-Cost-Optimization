@@ -152,4 +152,6 @@ Example
 
 Next we create a Lambda function
 ![image](https://github.com/user-attachments/assets/b360f631-0ffd-4fb1-993f-f633afcbc12c)
-**
+
+![image](https://github.com/user-attachments/assets/4d739914-5249-49c5-9903-292dbed6872e)
+
