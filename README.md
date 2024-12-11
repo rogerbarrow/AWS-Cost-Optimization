@@ -155,5 +155,10 @@ Next we create a Lambda function
 
 ![image](https://github.com/user-attachments/assets/4d739914-5249-49c5-9903-292dbed6872e)
 When you run the test your function will Fail the reason is permission
+You will need to Give it 
+Describle snapshot
+Delete snapshot 
+![image](https://github.com/user-attachments/assets/62ade1ff-52ca-451d-9dc1-b0577a13bafc)
+
 ![image](https://github.com/user-attachments/assets/5ee93d59-a29b-42b6-8405-b4a67546f44a)
 
