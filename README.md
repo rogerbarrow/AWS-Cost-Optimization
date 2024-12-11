@@ -138,10 +138,11 @@ Annual cost of forgotten snapshots:
 =
 10
 ,
-950
+$950
  
 USD
-912.50×12=10,950USD
+$912.50×12= $10,950USD
+
 That’s $10,950 annually for unused snapshots—a significant expense caused by a small oversight.
 
 Example
@@ -149,3 +150,6 @@ Example
    ![image](https://github.com/user-attachments/assets/133c0f39-70a3-4114-886c-20c2bcffe7f7)
    ![image](https://github.com/user-attachments/assets/0b53362a-b016-4a8d-b422-a68d305aa954)
 
+Next we create a Lambda function
+![image](https://github.com/user-attachments/assets/b360f631-0ffd-4fb1-993f-f633afcbc12c)
+**
