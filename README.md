@@ -99,3 +99,9 @@ It fetches information about active EC2 instances (both running and stopped).
 For each snapshot, the function determines whether the associated volume is linked to any active EC2 instance.
 
 If the snapshot is no longer in use (stale), the function deletes it, ensuring efficient storage usage.
+
+Example
+1. Create and EC2 Instance
+   ![image](https://github.com/user-attachments/assets/133c0f39-70a3-4114-886c-20c2bcffe7f7)
+   ![image](https://github.com/user-attachments/assets/0b53362a-b016-4a8d-b422-a68d305aa954)
+
