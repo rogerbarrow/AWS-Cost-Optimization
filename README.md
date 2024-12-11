@@ -180,3 +180,6 @@ the EC2 is now termiated
 The lamdba Function has deleted this snapshot
 ![image](https://github.com/user-attachments/assets/26282aac-b92c-4fd2-b820-6b2a283bc33e)
 
+![image](https://github.com/user-attachments/assets/26b5e713-f74f-455b-bcc1-a1e5fe571f00)
+
+
