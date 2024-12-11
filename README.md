@@ -176,3 +176,7 @@ Next we will Delete the EC2 and EBS volume
 
 the EC2 is now termiated
 ![image](https://github.com/user-attachments/assets/6a0a1e3b-d933-4ec2-8878-f1e2bd291bcf)
+
+The lamdba Function has deleted this snapshot
+![image](https://github.com/user-attachments/assets/26282aac-b92c-4fd2-b820-6b2a283bc33e)
+
