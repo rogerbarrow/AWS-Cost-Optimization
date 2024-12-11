@@ -182,4 +182,8 @@ The lamdba Function has deleted this snapshot
 
 ![image](https://github.com/user-attachments/assets/26b5e713-f74f-455b-bcc1-a1e5fe571f00)
 
+![image](https://github.com/user-attachments/assets/6e8ea6f3-17b7-4c76-80b4-f70b14bcd45b)
 
+![image](https://github.com/user-attachments/assets/142f4cf0-9114-4fa0-8881-892105cd5a7a)
+
+Using Cloud Watch you can automate this to be run every day or Every week 
