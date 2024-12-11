@@ -75,3 +75,18 @@ Why: Cloud environments foster innovation by providing access to cutting-edge te
 How:
 Services like AI/ML, IoT, and serverless computing enable rapid development and testing.
 Developers can focus on building solutions without worrying about managing infrastructure.
+
+AWS Cloud Cost Optimization: Identifying and Removing Stale EBS Snapshots
+Objective: Optimize AWS storage costs by identifying and deleting unused EBS snapshots that are no longer associated with any active EC2 instance.
+
+Overview:
+This process involves creating a Lambda function that automatically scans for EBS snapshots in your account, checks their association with active EC2 instances, and deletes snapshots deemed stale. This approach helps reduce unnecessary storage costs.
+
+![image](https://github.com/user-attachments/assets/964e8c18-1771-46ab-a228-a82d358fc533)
+
+How It Works:
+
+The Lambda function retrieves a list of all EBS snapshots owned by the account.
+It fetches information about active EC2 instances (both running and stopped).
+For each snapshot, the function determines whether the associated volume is linked to any active EC2 instance.
+If the snapshot is no longer in use (stale), the function deletes it, ensuring efficient storage usage.
