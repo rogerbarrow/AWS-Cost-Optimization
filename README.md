@@ -2,7 +2,7 @@
 
 ![image](https://github.com/user-attachments/assets/7872ce47-88ba-4205-b009-8d81006c3f91)
 
-! Top 5 Cost Optimization Tip for AWS Cloud
+ Top 5 Cost Optimization Tip for AWS Cloud
  1. Right-Sizing Resources
 What it is: Ensure the instances and resources match your workload requirements.
 Actions:
